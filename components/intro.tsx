@@ -31,7 +31,7 @@ export default function Intro() {
 
         <motion.div className='flex gap-1 items-center justify-center px-4 font-medium text-lg' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.1}}>
             <div className="flex flex-col sm:flex-row gap-1">
-                <Link href="#contact" className='group bg-gray-900 text-white py-3 px-7 flex items-center gap-2 rounded-full mb-2 sm:mb-0 outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-100'>Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" /></Link>
+                <Link href="#contact" className='group bg-gray-900 text-white py-3 px-7 flex items-center gap-2 rounded-full mb-2 sm:mb-0 outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-100'><a href="#contact">Contact me</a> <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" /></Link>
                 <a href="/CV.pdf" download className='group bg-white py-3 px-7 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-100 border'>Download CV <HiDownload className="opacity-70 group-hover:translate-y-1 transition" /></a>
             </div>
             <div className="flex flex-col sm:flex-row gap-1 ml-3 sm:ml-0">
