@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolio from "@/public/portfolio.png";
 import todolist from "@/public/todolist.png";
 import simonsays from "@/public/simonsays.png";
+import imagegenerator from "@/public/imagegenerator.png";
 
 export const links = [
   {
@@ -98,6 +99,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2017 - Feb 2018",
   },
+  {
+    title: "Semester Abroad",
+    location: "Bangkok, Thailand",
+    description:
+      "During my bachelor I've studied Business Administration for 1 semester in Bangkok.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Oct 2026 - Feb 2017",
+  },
 ] as const;
 
 export const projectsData = [
@@ -108,6 +117,14 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind"],
     link: "",
     imageUrl: portfolio,
+  },
+  {
+    title: "Image Generator",
+    description:
+      "A python script for getting ideas with the ChatGPT API and automated image generation usind Midjourney & Discord Bot",
+    tags: ["Python"],
+    link: "",
+    imageUrl: imagegenerator,
   },
   {
     title: "Todo-List App",
