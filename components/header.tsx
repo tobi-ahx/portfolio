@@ -7,6 +7,7 @@ import Link from 'next/link'; // Importing Next.js Link component for client-sid
 import clsx from 'clsx';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
+
 export default function Header() {
     const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
     
