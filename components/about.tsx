@@ -32,11 +32,12 @@ export default function About() {
 
       <p>
         Furthermore, while working as a technical SEO, I developed a passion for
-        coding and web development. While learning the fundamentals of HTML, CSS
-        and JavaScript due to my work, I have started self teaching myself
-        in-depth coding skills since August 2023. By using YouTube, Udemy and
-        ChatGPT I want to learn more about web development and modern
-        technologies like Next.JS, React or Python Automization.{" "}
+        coding and web development. As I learned the fundamentals of HTML, CSS,
+        and JavaScript as part of my work, I began self-teaching myself more
+        in-depth coding skills since August 2023. I am pursuing further learning
+        through platforms like YouTube, Udemy, and ChatGPT to explore web
+        development and modern technologies such as Next.js, React, and Python
+        automation.{" "}
       </p>
 
       <p className="mt-10">
