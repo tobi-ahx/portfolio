@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "AZ-900 Microsoft Azure Fundamentals",
+    title: "Certificate: AZ-900 Microsoft Azure Fundamentals",
     location: "Udemy (Status: Completed)",
     description:
       "Getting hands-on with Microsoft Azure (VM's, Storage, Databases, DevOps, Security).",
