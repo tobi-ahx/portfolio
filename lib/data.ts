@@ -6,6 +6,7 @@ import portfolio from "@/public/portfolio.png";
 import todolist from "@/public/todolist.png";
 import simonsays from "@/public/simonsays.png";
 import imagegenerator from "@/public/imagegenerator.png";
+import urlshortener from "@/public/urlshortener.png";
 
 export const links = [
   {
@@ -125,6 +126,14 @@ export const projectsData = [
     tags: ["Python"],
     link: "",
     imageUrl: imagegenerator,
+  },
+  {
+    title: "Shrinker",
+    description:
+      "A URL shortener application build with React and shrtcode API",
+    tags: ["React", "CSS", "Axios"],
+    link: "",
+    imageUrl: urlshortener,
   },
   {
     title: "Todo-List App",
