@@ -130,9 +130,9 @@ export const projectsData = [
   {
     title: "Shrinker",
     description:
-      "A URL shortener application build with React and shrtcode API",
+      "A URL shortener application build with React and shrtcode API. Click to try it out!",
     tags: ["React", "CSS", "Axios"],
-    link: "",
+    link: "https://url-shortener-by-tobi.vercel.app/",
     imageUrl: urlshortener,
   },
   {
