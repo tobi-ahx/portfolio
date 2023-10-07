@@ -13,6 +13,9 @@ export default function Project({
   tags,
   link,
   imageUrl,
+  mail,
+  pw,
+  demo,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -37,6 +40,13 @@ export default function Project({
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
               {description}
+            </p>
+            <p className="text-xs mt-2">{demo}</p>
+            <p className="text-xs leading-relaxed text-gray-700 dark:text-white/70">
+              {mail}
+            </p>
+            <p className="text-xs leading-relaxed text-gray-700 dark:text-white/70">
+              {pw}
             </p>
 
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">

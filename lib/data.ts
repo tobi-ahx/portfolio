@@ -7,6 +7,7 @@ import todolist from "@/public/todolist.png";
 import simonsays from "@/public/simonsays.png";
 import imagegenerator from "@/public/imagegenerator.png";
 import urlshortener from "@/public/urlshortener.png";
+import automind from "@/public/automind.png"
 
 export const links = [
   {
@@ -112,12 +113,26 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "AutoMind",
+    description:
+      "A SaaS platform for generating Text, Images and Code powered by OpenAI. Click to try it out!",
+    tags: ["React", "Next.js", "Tailwind", "Prisma", "OpenAI", "Clerk"],
+    link: "https://automind-by-tobi.vercel.app/",
+    imageUrl: automind,
+    mail: "demo(1-5)@automind.com",
+    pw: "automind-demo-2023",
+    demo: "Demo Account:"
+  },
+  {
     title: "Personal Portfolio",
     description:
       "A personal portfolio to practice my skills and show my work to other people. The portfolio is responsive with light & dark mode and using different packages like react-resend for direct E-Mail contact.",
     tags: ["React", "Next.js", "Tailwind"],
     link: "",
     imageUrl: portfolio,
+    mail: "",
+    pw: "",
+    demo: ""
   },
   {
     title: "Image Generator",
@@ -126,6 +141,9 @@ export const projectsData = [
     tags: ["Python"],
     link: "",
     imageUrl: imagegenerator,
+    mail: "",
+    pw: "",
+    demo: ""
   },
   {
     title: "Shrinker",
@@ -134,6 +152,9 @@ export const projectsData = [
     tags: ["React", "CSS", "Axios"],
     link: "https://url-shortener-by-tobi.vercel.app/",
     imageUrl: urlshortener,
+    mail: "",
+    pw: "",
+    demo: ""
   },
   {
     title: "Todo-List App",
@@ -142,6 +163,9 @@ export const projectsData = [
     tags: ["React", "CSS"],
     link: "https://todo-list-by-tobi.vercel.app/",
     imageUrl: todolist,
+    mail: "",
+    pw: "",
+    demo: ""
   },
   {
     title: "Simon Says Game",
@@ -150,6 +174,9 @@ export const projectsData = [
     tags: ["JavaScript", "CSS", "HTML"],
     link: "https://tobi-ahx.github.io/simon-says/",
     imageUrl: simonsays,
+    mail: "",
+    pw: "",
+    demo: ""
   },
 ] as const;
 
