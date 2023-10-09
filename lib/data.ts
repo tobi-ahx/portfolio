@@ -70,6 +70,14 @@ export const experiencesData = [
     date: "2018 - 2023",
   },
   {
+    title: "Certificate: Python Basics",
+    location: "Codecademy (Status: Completed)",
+    description:
+      "Basics of Python",
+    icon: React.createElement(LiaCertificateSolid),
+    date: "2022",
+  },
+  {
     title: "Certificate: HTML & CSS Fundamentals",
     location: "Codecademy (Status: Completed)",
     description:
