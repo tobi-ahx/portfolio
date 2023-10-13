@@ -156,9 +156,9 @@ export const projectsData = [
   {
     title: "Shrinker",
     description:
-      "A URL shortener application build with React and shrtcode API. Click to try it out!",
+      "A URL shortener application build with React and shrtcode API.",
     tags: ["React", "CSS", "Axios"],
-    link: "https://url-shortener-by-tobi.vercel.app/",
+    link: "",
     imageUrl: urlshortener,
     mail: "",
     pw: "",
