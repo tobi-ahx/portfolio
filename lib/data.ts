@@ -145,7 +145,7 @@ export const projectsData = [
   {
     title: "Image Generator",
     description:
-      "A python script for getting ideas with the ChatGPT API and automated image generation usind Midjourney & Discord Bot",
+      "A python script for getting ideas with the ChatGPT API and automated image generation using Midjourney & Discord Bot",
     tags: ["Python"],
     link: "",
     imageUrl: imagegenerator,
