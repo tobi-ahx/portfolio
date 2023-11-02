@@ -115,7 +115,7 @@ export const experiencesData = [
     description:
       "During my bachelor I've studied Business Administration for 1 semester in Bangkok.",
     icon: React.createElement(LuGraduationCap),
-    date: "Oct 2026 - Feb 2017",
+    date: "Oct 2016 - Feb 2017",
   },
 ] as const;
 
