@@ -8,6 +8,7 @@ import simonsays from "@/public/simonsays.png";
 import imagegenerator from "@/public/imagegenerator.png";
 import urlshortener from "@/public/urlshortener.png";
 import automind from "@/public/automind.png"
+import imagedetection from "@/public/image-detection.png"
 
 export const links = [
   {
@@ -120,6 +121,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Image Detection",
+    description:
+      "A Python script that loops through a list of images in AWS S3 to detect adjustment and generating a detailed description, title and relevant tags for the image.",
+    tags: ["React", "Next.js", "Tailwind", "Prisma", "OpenAI", "Clerk"],
+    link: "",
+    imageUrl: imagedetection,
+  },
   {
     title: "AutoMind",
     description:
