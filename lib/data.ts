@@ -125,7 +125,7 @@ export const projectsData = [
     title: "Image Detection",
     description:
       "A Python script that loops through a list of images in AWS S3 to detect adjustment and generating a detailed description, title and relevant tags for the image.",
-    tags: ["React", "Next.js", "Tailwind", "Prisma", "OpenAI", "Clerk"],
+    tags: ["Python", "OpenAI", "AWS"],
     link: "",
     imageUrl: imagedetection,
     mail: "",
