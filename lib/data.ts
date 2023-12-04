@@ -128,6 +128,9 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind", "Prisma", "OpenAI", "Clerk"],
     link: "",
     imageUrl: imagedetection,
+    mail: "",
+    pw: "",
+    demo: ""
   },
   {
     title: "AutoMind",
@@ -209,4 +212,6 @@ export const skillsData = [
   "Tailwind",
   "Python",
   "Framer Motion",
+  "WordPress",
+  "WooCommerce"
 ] as const;
