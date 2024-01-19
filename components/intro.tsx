@@ -49,10 +49,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi I'm Tobi</span>, a SEO specialist an
-        upcoming web developer from{" "}
-        <span className="italic">Hamburg, Germany.</span> I enjoy learning new
-        stuff and working with the latest{" "}
+        <span className="font-bold">Hi I'm Tobi</span>, a SEO specialist and Web
+        Developer from <span className="italic">Hamburg, Germany.</span> I enjoy
+        learning new stuff and working with the latest{" "}
         <span className="underline">technologies.</span>
       </motion.p>
 
