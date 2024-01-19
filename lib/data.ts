@@ -123,9 +123,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Posterpalette",
+    title: "Poster Palette",
     description:
-      "An online shop build with wordpress and woocomerce.",
+      "A POD online shop built with WordPress and WooCommerce.",
     tags: ["Wordpress", "Woocommerce", "Python", "PHP"],
     link: "https://www.posterpalette.de",
     imageUrl: posterpalette,
