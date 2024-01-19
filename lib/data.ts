@@ -8,7 +8,8 @@ import simonsays from "@/public/simonsays.png";
 import imagegenerator from "@/public/imagegenerator.png";
 import urlshortener from "@/public/urlshortener.png";
 import automind from "@/public/automind.png"
-import imagedetection from "@/public/image-detection.png"
+import imagedetection from "@/public/image-detection.png";
+import posterpalette from "@/public/posterpalette.png"
 
 export const links = [
   {
@@ -121,6 +122,17 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Posterpalette",
+    description:
+      "An online shop build with wordpress and woocomerce.",
+    tags: ["Wordpress", "Woocommerce", "Python", "PHP"],
+    link: "https://www.posterpalette.de",
+    imageUrl: posterpalette,
+    mail: "",
+    pw: "",
+    demo: ""
+  },
   {
     title: "Image Detection",
     description:
