@@ -180,7 +180,7 @@ export const projectsData = [
   {
     title: "Shrinker",
     description:
-      "A URL shortener application build with React and shrtcode API.",
+      "A URL shortener application built with React and shrtcode API.",
     tags: ["React", "CSS", "Axios"],
     link: "",
     imageUrl: urlshortener,
@@ -191,7 +191,7 @@ export const projectsData = [
   {
     title: "Todo-List App",
     description:
-      "A simple todo list for adding, checking and removing taskt. The app is using the local storage to keep the items when refreshing. Click to try it out!",
+      "A simple todo list for adding, checking and removing tasks. The app is using the local storage to keep the items when refreshing. Click to try it out!",
     tags: ["React", "CSS"],
     link: "https://todo-list-by-tobi.vercel.app/",
     imageUrl: todolist,
